@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sanjaymaraboina/Sanjay-s-Portfolio/static/css/main.2724982d.css",
+    "main.js": "/sanjaymaraboina/Sanjay-s-Portfolio/static/js/main.0d1213eb.js",
+    "static/media/mountains.png": "/sanjaymaraboina/Sanjay-s-Portfolio/static/media/mountains.6bceb498a0e1e0a70b47.png",
+    "static/media/perfomance1.jpg": "/sanjaymaraboina/Sanjay-s-Portfolio/static/media/perfomance1.f99297ab7c1014041bcc.jpg",
+    "static/media/webdev.webp": "/sanjaymaraboina/Sanjay-s-Portfolio/static/media/webdev.044754e54394c5ad5828.webp",
+    "static/media/userinterface2.jpg": "/sanjaymaraboina/Sanjay-s-Portfolio/static/media/userinterface2.689ae7e785ac90e68568.jpg",
+    "static/media/client1.jpg": "/sanjaymaraboina/Sanjay-s-Portfolio/static/media/client1.c29d68ea62ba5638526b.jpg",
+    "static/media/Responsive.jpg": "/sanjaymaraboina/Sanjay-s-Portfolio/static/media/Responsive.dafa691680c405eb7d21.jpg",
+    "static/media/stars.png": "/sanjaymaraboina/Sanjay-s-Portfolio/static/media/stars.a979f6ed7ad00c7ea0b2.png",
+    "static/media/planets.png": "/sanjaymaraboina/Sanjay-s-Portfolio/static/media/planets.827213af57ae82d007cd.png",
+    "static/media/sun.png": "/sanjaymaraboina/Sanjay-s-Portfolio/static/media/sun.1122608e12712a52470d.png",
+    "index.html": "/sanjaymaraboina/Sanjay-s-Portfolio/index.html",
+    "main.2724982d.css.map": "/sanjaymaraboina/Sanjay-s-Portfolio/static/css/main.2724982d.css.map",
+    "main.0d1213eb.js.map": "/sanjaymaraboina/Sanjay-s-Portfolio/static/js/main.0d1213eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2724982d.css",
+    "static/js/main.0d1213eb.js"
+  ]
+}
