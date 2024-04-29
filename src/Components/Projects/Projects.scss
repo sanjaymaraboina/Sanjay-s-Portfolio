@@ -1,0 +1,170 @@
+@import "../../App.scss";
+
+.projects {
+  position: relative;
+display: flex;
+flex-direction: column;
+gap: 45px;
+height: 100%;
+@include mobile{
+  // gap: 80px;
+}
+
+  .wave {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 60px;
+    z-index: 555;
+
+    @include mobile{
+      font-size: 20px;
+      // display: none;
+    }
+  
+    span {
+      font-weight: 700;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      position: relative;
+      display: inline-block;
+      color: rgb(8, 47, 69);
+      text-transform: uppercase;
+      animation: wave 1s infinite; 
+      animation-delay: calc(.1s * var(--i));
+      position: sticky;
+    }
+  }
+  
+  @keyframes wave {
+    0%, 40%, 100% {
+      transform: translateY(0);
+    }
+    20% {
+      transform: translateY(-20px);
+    }
+  }
+  
+
+  .progress {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 36px;
+
+    @include mobile {
+      font-size: 14px;
+      padding-top: 25px;
+
+    }
+
+    .progressBar {
+      height: 10px;
+      background-color: rgb(8, 47, 69);
+      @include mobile {
+        height: 7px;
+      }
+    }
+    .project-lists{
+      height: 100vh;
+    }
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    .wrapper {
+      max-width: 1366px;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+      @include mobile {
+        flex-direction: column;
+        gap: 35px;
+
+      }
+
+      .imageContainer {
+        flex: 1;
+        height: 50%;
+        margin-top: 100px;
+
+        @include mobile {
+          width: 100%;
+          max-height: 300px;
+          display: flex;
+          justify-content: center;
+        }
+
+        img {
+          width: 70%;
+          height: 80%;
+          object-fit: cover;
+          border-radius: 15px;
+
+          @include mobile {
+            object-fit: contain;         
+          height: 220px;
+          }
+        }
+      }
+
+      .textContainer {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        @include mobile {
+          transform: none !important;
+          padding: 10px;
+          align-items: center;
+          text-align: center;
+        }
+
+        h2 {
+          font-size: 52px;
+          color: rgb(18, 93, 113);;
+
+          @include mobile {
+            font-size: 30px;
+          }
+        }
+
+        p {
+          color: gray;
+          font-size: 20px;
+
+          @include mobile {
+            font-size: 16px;
+          }
+        }
+        span{
+          color: red;
+        }
+        button {
+          padding: 20px;
+          width: 140px;
+          height: 50px;
+          border: 1px solid rgb(18, 93, 113);;
+          border-radius: 10px;
+          background-color: transparent;
+          color: white;
+          margin-right: 20px;
+          cursor: pointer;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}

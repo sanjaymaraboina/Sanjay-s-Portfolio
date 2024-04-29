@@ -1,0 +1,123 @@
+@import "../../App.scss";
+
+.contact {
+  height: 100%;
+  max-width: 1366px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  @include mobile {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @include mobile {
+      gap: 20px;
+      text-align: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    h1 {
+      font-size: 90px;
+      line-height: 88px;
+      color: rgb(18, 93, 113);
+
+      @include mobile {
+        font-size: 36px;
+      }
+    }
+    h2{
+        color: antiquewhite;
+    }
+    span {
+      font-weight: 300;
+      color: antiquewhite;
+
+    }
+  }
+
+  .formContainer {
+    flex: 1;
+    position: relative;
+    
+    @include mobile {
+      padding: 50px;
+    }
+
+
+    .phoneSvg {
+      stroke: rgb(18, 93, 113);
+      position: absolute;
+      margin: auto;
+      z-index: -1;
+      width: 150px;
+      svg{
+        
+    @include mobile {
+      width: 280px;
+      position: absolute ;
+      top: -70px;
+    }
+      }
+   
+    }
+
+    form {
+        width: 500px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      
+      @include mobile {
+        width: 300px;
+      }
+
+      input,
+      textarea {
+        padding: 20px;
+        background-color: transparent;
+        border: 1px solid rgb(18, 93, 113);
+        color: rgb(18, 93, 113);
+        border-radius: 5px;
+        
+        @include mobile {
+          padding: 10px;
+        }
+      }
+
+      button {
+        padding: 20px;
+        width: 150px;
+        height:55px;
+        border: 1px solid rgb(18, 93, 113);
+        border-radius: 10px;
+        background-color: transparent;
+        color: antiquewhite;
+        margin-right: 20px;
+        cursor: pointer;
+          font-weight: 500;
+       
+        @include mobile {
+          padding: 10px;
+        }
+      }
+      button:hover{
+        color: #fff;
+        box-shadow: inset 200px 0 0 0 rgb(18, 93, 113);
+        border-radius: 8px;
+      }
+    }
+  }
+}

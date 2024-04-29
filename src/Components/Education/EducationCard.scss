@@ -1,0 +1,110 @@
+// EducationCard.scss
+@import "../../App.scss";
+
+.cards {
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+
+    padding: 12px 16px;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+        transform: translateY(-5px);
+    }
+    @media only screen and (max-width: 768px) {
+        padding: 10px;
+        gap: 8px;
+        width: 300px;
+    }
+
+    &:hover {
+        .imageImg {
+            display: flex;
+        }
+
+        .description {
+            overflow: visible;
+            -webkit-line-clamp: unset;
+        }
+    }
+
+    border: 1px solid rgb(18, 93, 113);
+
+    .top {
+        width: 100%;
+        display: flex;
+        gap: 12px;
+
+        .imageImg {
+            height: 50px;
+            width: 50px;
+            background-color: #000;
+            border-radius: 10px;
+            margin-top: 4px;
+            @media only screen and (max-width: 768px) {
+                height: 40px;
+            }
+        }
+
+        .body {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .name {
+                font-size: 18px;
+                font-weight: 600;
+                color: antiquewhite;
+                @media only screen and (max-width: 768px) {
+                    font-size: 14px;
+                }
+            }
+
+            .degree {
+                font-size: 14px;
+                font-weight: 500;
+                color: cadetblue;
+                @media only screen and (max-width: 768px) {
+                    font-size: 12px;
+                }
+            }
+
+            .date {
+                font-size: 12px;
+                font-weight: 400;
+                color:chocolate;
+                @media only screen and (max-width: 768px) {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .grade {
+        font-size: 14px;
+        font-weight: 500;
+        color: yellow;
+        @media only screen and (max-width: 768px) {
+            font-size: 12px;
+        }
+    }
+
+    .description {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 400;
+        color: yellowgreen;
+        margin-bottom: 10px;
+        @media only screen and (max-width: 768px) {
+            font-size: 12px;
+        }
+    }
+}
