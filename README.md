@@ -17,9 +17,8 @@ https://github.com/sanjaymaraboina/Sanjay-s-Portfolio/assets/153506569/4c332fa1-
 ##### Thank you for visiting my portfolio! I'm excited to connect with you and explore potential collaborations or opportunities together.
 
 
-![Screenshot 2024-04-30 072503](https://github.com/sanjaymaraboina/Sanjay-s-Portfolio/assets/153506569/a1a10382-d289-4765-b895-c86281e590f0)
-![Screenshot 2024-04-30 072343](https://github.com/sanjaymaraboina/Sanjay-s-Portfolio/assets/153506569/175165ba-f702-489f-a75d-ac796fd968c4)
-![Screenshot 2024-04-30 072323](https://github.com/sanjaymaraboina/Sanjay-s-Portfolio/assets/153506569/0e3bbb8e-882c-4a76-96c6-77a1150bfa28)
+![Screenshot 2024-04-30 072503](https://github.com/sanjaymaraboina/Sanjay-s-Portfolio/assets/153506569/a1a10382-d289-4765-b895-c86281e590f0)  ![Screenshot 2024-04-30 072343](https://github.com/sanjaymaraboina/Sanjay-s-Portfolio/assets/153506569/175165ba-f702-489f-a75d-ac796fd968c4)
+
 ![Screenshot 2024-04-30 072309](https://github.com/sanjaymaraboina/Sanjay-s-Portfolio/assets/153506569/3f35aaf8-6ee7-4773-b32b-790a79a23087)
 ![Screenshot 2024-04-30 072253](https://github.com/sanjaymaraboina/Sanjay-s-Portfolio/assets/153506569/2179531c-1bd0-42f1-8c35-8fe5002eeadd)
 ![Screenshot 2024-04-30 072240](https://github.com/sanjaymaraboina/Sanjay-s-Portfolio/assets/153506569/e4a03c34-ac9b-48fe-80fe-063858ebb11e)
